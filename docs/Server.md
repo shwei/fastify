@@ -277,7 +277,7 @@ fastify.get('/', (request, reply) => {
 })
 ```
 
-+ Default: `false`
++ Default: `true`
 + `true/false`: add properties `ip`, `ips`, `hostname`, and `log` to Node's request object and only `log` to Node's response object  (`true`) or leave Node's request and response objects alone (`false`).
 
 
